@@ -18,6 +18,7 @@ app.get("/*", (req, res) => {
 });
 
 app.post("/msg", async (req, res) => {
+  console.log("called,,...");
   const response = await manager.process("en", req.body.message)
   res.json({type:"text",value:response.answer || null})
 

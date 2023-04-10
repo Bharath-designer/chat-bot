@@ -1,29 +1,53 @@
+.logo {
+    width: 100px;
+}
+
 .home-wrapper{
     width: min(900px,90%);
     margin: 50px auto;
 }
 
 .home-details {
-    width: 90%;
+    width: 100%;
     margin: 40px auto;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
 }
 
 .heading{
     text-align: center;
     letter-spacing: 2px;
+    margin-top: 2em;
 }
 
-.home-details ul {
-    list-style-type: none;
-}
 
 .home-title{
     font-weight: bold;
     font-size: 18px;
     color: rgb(49, 49, 49);
+    margin-top: 1em;
+}
+
+.starting-guide {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .topics{
     margin-top: 20px;
     margin-left: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    column-gap: 20px;
+}
+
+.topic {
+    background-color: rgb(224, 224, 224);
+    padding: 5px 10px;
+    border-radius: 10px;
+    white-space: nowrap;
 }

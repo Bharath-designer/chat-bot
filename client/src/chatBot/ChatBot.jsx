@@ -22,7 +22,7 @@ const ChatBot = () => {
   const changeLoader = () => {
     if (loaderRef.current)
       loaderRef.current.innerHTML = "Bot is typing" + " .".repeat(dotCount++);
-    if (dotCount == 5) dotCount = 1;
+    if (dotCount === 5) dotCount = 1;
   };
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const ChatBot = () => {
     setChats((chat) => [...chat, tempObj]);
     setMessage("");
     axios
-      .post("/msg", { message: message })
+      .post("http://localhost:8080/msg", { message: message })
       .then((res) => {
         let tempObj = { sender: "bot" };
         tempObj[res.data.type] = res.data.value || "I can't understand what you said.";
