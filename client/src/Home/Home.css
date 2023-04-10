@@ -1,0 +1,29 @@
+.home-wrapper{
+    width: min(900px,90%);
+    margin: 50px auto;
+}
+
+.home-details {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.heading{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.home-details ul {
+    list-style-type: none;
+}
+
+.home-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(49, 49, 49);
+}
+
+.topics{
+    margin-top: 20px;
+    margin-left: 20px;
+}

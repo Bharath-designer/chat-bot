@@ -1,0 +1,179 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "yo"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "I was designed by Bharath with Nodejs for Backend and ReactJs for Frontend",
+        "Bharath is responsible for my creation.",
+        "My development is credited to Bharath.",
+        "I owe my existence to Bharath.",
+        "Bharath brought me into being.",
+        "Bharath is the mastermind behind my creation.",
+        "I am a product of Bharath's ingenuity.",
+        "Bharath is the one who designed me."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stack",
+      "patterns": [
+        "what tech stack is used to build you",
+        "What programming languages and frameworks were used to develop this application?",
+        "Can you tell me about the technology used to build this application?",
+        "What is the tech stack used for this application?",
+        "Could you share the list of technologies used in developing this application?",
+        "Which libraries and tools were employed to create this application?",
+        "I'm curious about the technology stack behind this application. Can you provide any information?",
+        "What are the software components and technologies involved in this application?",
+        "Is it possible to know the technology stack utilized in the development of this application?",
+        "Can you give me an overview of the technology stack used to build this application?",
+        "What technologies and infrastructure were used in the development of this application?"
+      ],
+      "responses": [
+        "My creator, Bharath, built me with Node.js for the server-side and React.js for the client-side.",
+        "Bharath utilized Node.js and React.js to create me, with Node.js powering the backend and React.js handling the frontend.",
+        "Node.js and React.js were the tools of choice for Bharath when designing my backend and frontend, respectively."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": ["You can call me ChatBot.", "I'm ChatBot"],
+      "context_set": ""
+    },
+    {
+      "tag": "random",
+      "patterns": ["I love you", "Will you marry me", "Do you love me"],
+      "responses": ["I am not program for this please ask appropriate query"],
+      "context_set": ""
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker"
+      ],
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "salutaion",
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "its ok",
+        "Thanks",
+        "k",
+        "ok",
+        "okay"
+      ],
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "task",
+      "patterns": [
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you"
+      ],
+      "responses": [
+        "Bharath created me as a basic conversational chatbot that can answer your questions to the best of my abilities.",
+        "I am a chatbot project developed by Bharath that is designed to engage in simple conversations and answer your inquiries.",
+        "My creator, Bharath, programmed me as a conversational chatbot that can assist you by answering your questions.",
+        "Bharath developed me as a basic chatbot that is capable of answering questions to the best of my knowledge.",
+        "I am a conversational chatbot project created by Bharath, designed to answer your questions as much as possible.",
+        "My developer, Bharath, created me as a simple chatbot that can respond to your questions to the best of my abilities.",
+        "Bharath programmed me as a conversational chatbot that is able to answer your inquiries to the extent of my knowledge.",
+        "I am a chatbot project developed by Bharath that is capable of engaging in simple conversations and answering your questions.",
+        "My creator, Bharath, developed me as a conversational chatbot that is designed to provide you with answers to the best of my abilities."
+      ],
+      "context_set": ""
+    }
+  ]
+}
