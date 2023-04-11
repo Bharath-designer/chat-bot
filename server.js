@@ -18,8 +18,10 @@ app.get("/*", (req, res) => {
 });
 
 app.post("/msg", async (req, res) => {
-  console.log("called,,...");
   const response = await manager.process("en", req.body.message)
+  console.log(req.body.message);
+  console.log(response.answer);
+  console.log("--------------");
   res.json({type:"text",value:response.answer || null})
 
 });

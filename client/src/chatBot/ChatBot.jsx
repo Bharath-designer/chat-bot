@@ -48,7 +48,7 @@ const ChatBot = () => {
     setChats((chat) => [...chat, tempObj]);
     setMessage("");
     axios
-      .post("http://localhost:8080/msg", { message: message })
+      .post("/msg", { message: message })
       .then((res) => {
         let tempObj = { sender: "bot" };
         tempObj[res.data.type] = res.data.value || "I can't understand what you said.";
